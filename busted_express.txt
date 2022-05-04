@@ -1,0 +1,5 @@
+Push 4:
+- Fix 7 | ranger.js | Added parentheses
+- Fix 8 | db.js     | Corrected spelling on module 
+- Fix 9 | db.js     | Added a comma
+

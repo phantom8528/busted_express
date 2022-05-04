@@ -1,4 +1,4 @@
-modules.exports = [
+module.exports = [ //<-- Fix 8: Corrected spelling on module 
     {
         id: 1,
         slug: 'red_ranger',
@@ -10,7 +10,7 @@ modules.exports = [
         slug: 'black_ranger',
         name: 'Black Ranger',
         zord: 'Mastodon'
-    }
+    }, //<-- Fix 9: Added a comma 
     {
         id: 3,
         slug: 'pink_ranger',

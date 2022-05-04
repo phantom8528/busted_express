@@ -7,8 +7,6 @@ const express = require('express'); //<-- Fix 5: Replaced comma with semicolon
 const app = express(); //<-- Fix 3: Assigned all express functionality to app variable
 
 const es6Renderer = require('express-es6-template-engine'); //<-- Fix 4: Applied "const" to the beginning of the variable
-
-
 app.engine('html', es6Renderer);
 app.set('views', './views');
 app.set('view engine', 'html');

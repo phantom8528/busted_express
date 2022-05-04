@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 
 router.get('/:slug', (req, res) => {
     const { slug } = req.params;
-    const ranger = rangersModel.find((ranger => ranger.slug === slug)
+    const ranger = rangersModel.find((ranger => ranger.slug === slug))//<-- Fix 7: Added Parentheses
     if (ranger) {
         res.render('template', {
             locals: {
